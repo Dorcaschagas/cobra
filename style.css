@@ -74,7 +74,7 @@ body{
 @media screen and (max-width: 800px) {
     .wrapper{
         width: 90vmin;
-        height: 90vmin;
+        height: 100vmin;
     }
 
     .game_details{
