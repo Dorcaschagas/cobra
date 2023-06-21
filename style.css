@@ -72,3 +72,14 @@ body{
         min-height: 100vh;
     }
 }
+
+@media (max-width: 500px) {
+    body{
+        min-height: 100vh;
+    }
+
+    .wrapper{
+        width: 100vmin;
+        height: 95vh;
+    }
+}
