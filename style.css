@@ -4,17 +4,16 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background: #e3f2fd;
-}
+} */
 
 .wrapper{
+    margin: auto;
     width: 65vmin;
-    height: 70vmin;
+    height: 90vmin;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -73,8 +72,9 @@ body{
 
 @media screen and (max-width: 800px) {
     .wrapper{
-        width: 90vmin;
-        height: 100vmin;
+        margin: auto;
+        width: 65vmin;
+        height: 80vmin;
     }
 
     .game_details{
