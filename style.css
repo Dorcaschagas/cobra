@@ -6,14 +6,13 @@
 
 body{
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 100vmin;
+    align-items: center;
 }
 
 .wrapper{
-    margin: auto;
-    width: 65vmin;
+    margin-top: 5vh;
+    width: 80vmin;
     height: 90vmin;
     display: flex;
     flex-direction: column;
@@ -23,12 +22,12 @@ body{
 }
 
 .game_details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     color: #b8c6dc;
     font-size: 1.2rem;
     font-weight: 500;
-    padding: 20px 27px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .play-board{
@@ -54,43 +53,17 @@ body{
     justify-content: space-around;
 }
 
-
 .left, .right{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
 }
 
 .controls i{
-    padding: 25px 0;
+    padding: 1rem;
     color: #b8c6dc;
     text-align: center;
     cursor: pointer;
     font-size: 1.3rem;
     width: 100%;
-}
-
-@media screen and (max-width: 800px) {
-    .wrapper{
-        margin: auto;
-        width: 85vmin;
-        height: 100vmin;
-    }
-
-    .game_details{
-        font-size: 1rem;
-        padding: 15px 27px;
-    }
-
-    .controls{
-        border: 1px solid;
-        display: flex;
-        /* flex-direction: column; */
-    }
-
-    .controls i{
-        padding: 15px 15px;
-        font-size: 1rem;
-    }
 }
