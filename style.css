@@ -11,9 +11,8 @@ body{
 }
 
 .wrapper{
-    margin-top: 5vh;
     width: 80vmin;
-    height: 90vmin;
+    height: 100vmin;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -66,4 +65,10 @@ body{
     cursor: pointer;
     font-size: 1.3rem;
     width: 100%;
+}
+
+@media (max-width: 680px) {
+    body{
+        min-height: 100vh;
+    }
 }
