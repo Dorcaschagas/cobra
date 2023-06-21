@@ -11,7 +11,7 @@ body{
 }
 
 .wrapper{
-    width: 90vh;
+    width: 75vh;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,14 +24,16 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: #b8c6dc;
     font-size: 1.2rem;
     font-weight: 500;
+    height: 10vh;
 }
 
 .play-board{
     width: 100%;
-    height: 100vh;
+    height: 82vh;
     background:#212837 ;
     display: grid;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
@@ -59,23 +61,26 @@ body{
 }
 
 .controls i{
-    padding: 1rem;
+    display: flex;
+    align-items: center;
     color: #b8c6dc;
     text-align: center;
     cursor: pointer;
     font-size: 1.3rem;
     width: 100%;
+    height: 8vh;
 }
 
-
-
-@media (max-width: 500px) {
-    body{
-        min-height: 100vh;
-    }
-
+@media (max-width:500px) {
     .wrapper{
-        width: 100vmin;
-        height: 80vh;
+        width: 60vh;
+        /* height: 100vh; */
     }
+
+    .game_details{
+        width: 100%;
+        height: 33%;
+        font-size: 1.5rem;
+    }
+    
 }
