@@ -11,8 +11,8 @@ body{
 }
 
 .wrapper{
-    width: 80vmin;
-    height: 100vmin;
+    width: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -67,11 +67,7 @@ body{
     width: 100%;
 }
 
-@media (max-width: 680px) {
-    body{
-        min-height: 100vh;
-    }
-}
+
 
 @media (max-width: 500px) {
     body{
@@ -80,6 +76,6 @@ body{
 
     .wrapper{
         width: 100vmin;
-        height: 95vh;
+        height: 80vh;
     }
 }
