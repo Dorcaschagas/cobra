@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+    min-height: 100vmin;
+}
 
 .wrapper{
     margin: auto;
@@ -73,8 +74,8 @@
 @media screen and (max-width: 800px) {
     .wrapper{
         margin: auto;
-        width: 65vmin;
-        height: 80vmin;
+        width: 85vmin;
+        height: 100vmin;
     }
 
     .game_details{
